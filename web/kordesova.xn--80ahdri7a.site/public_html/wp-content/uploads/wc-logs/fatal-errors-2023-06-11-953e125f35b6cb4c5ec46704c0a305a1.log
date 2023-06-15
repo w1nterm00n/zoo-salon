@@ -1,0 +1,21 @@
+2023-06-11T13:28:45+00:00 CRITICAL Uncaught TypeError: in_array(): Argument #2 ($haystack) must be of type array, bool given in /home/2903-21/web/kordesova.xn--80ahdri7a.site/public_html/wp-content/plugins/remove-add-to-cart-woocommerce/front/class-ratcwp-front.php:151
+Stack trace:
+#0 /home/2903-21/web/kordesova.xn--80ahdri7a.site/public_html/wp-content/plugins/remove-add-to-cart-woocommerce/front/class-ratcwp-front.php(151): in_array()
+#1 /home/2903-21/web/kordesova.xn--80ahdri7a.site/public_html/wp-includes/class-wp-hook.php(310): Ratcwp_Hide_Price_Front->ratcwp_replace_loop_add_to_cart_link()
+#2 /home/2903-21/web/kordesova.xn--80ahdri7a.site/public_html/wp-includes/plugin.php(205): WP_Hook->apply_filters()
+#3 /home/2903-21/web/kordesova.xn--80ahdri7a.site/public_html/wp-content/plugins/woocommerce/templates/loop/add-to-cart.php(35): apply_filters()
+#4 /home/2903-21/web/kordesova.xn--80ahdri7a.site/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include('...')
+#5 /home/2903-21/web/kordesova.xn--80ahdri7a.site/public_html/wp-content/plugins/woocommerce/includes/wc-template-functions.php(1378): wc_get_template()
+#6 /home/2903-21/web/kordesova.xn--80ahdri7a.site/public_html/wp-includes/class-wp-hook.php(308): woocommerce_template_loop_add_to_cart()
+#7 /home/2903-21/web/kordesova.xn--80ahdri7a.site/public_html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters()
+#8 /home/2903-21/web/kordesova.xn--80ahdri7a.site/public_html/wp-includes/plugin.php(517): WP_Hook->do_action()
+#9 /home/2903-21/web/kordesova.xn--80ahdri7a.site/public_html/wp-content/plugins/woocommerce/templates/content-product.php(65): do_action()
+#10 /home/2903-21/web/kordesova.xn--80ahdri7a.site/public_html/wp-includes/template.php(785): require('...')
+#11 /home/2903-21/web/kordesova.xn--80ahdri7a.site/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(284): load_template()
+#12 /home/2903-21/web/kordesova.xn--80ahdri7a.site/public_html/wp-content/plugins/woocommerce/templates/archive-product.php(70): wc_get_template_part()
+#13 /home/2903-21/web/kordesova.xn--80ahdri7a.site/public_html/wp-includes/template-loader.php(106): include('...')
+#14 /home/2903-21/web/kordesova.xn--80ahdri7a.site/public_html/wp-blog-header.php(19): require_once('...')
+#15 /home/2903-21/web/kordesova.xn--80ahdri7a.site/public_html/index.php(17): require('...')
+#16 {main}
+  thrown в /home/2903-21/web/kordesova.xn--80ahdri7a.site/public_html/wp-content/plugins/remove-add-to-cart-woocommerce/front/class-ratcwp-front.php на строке 151
+
